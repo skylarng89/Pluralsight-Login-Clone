@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
+
+body {
+  font-family: "Poppins", "Calibri", sans-serif;
+  font-weight: 400;
+  background: #181818;
+  color: white;
+  overflow: hidden;
+  /* Overflow disables scroll bar by default*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Sign In block formatting */
+#sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#sign-in #site-badge {
+  margin-bottom: 8vh;
+}
+
+#sign-in #site-badge img {
+  width: 80px;
+}
+
+#sign-in-form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#sign-in label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
